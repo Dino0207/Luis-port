@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website for Luis Cervantes.">
+    <title>Luis Cervantes | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <a href="#home" class="brand">LUIS CERVANTES</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="siteNav">
+                Menu
+            </button>
+            <nav class="navbar" id="siteNav">
+                <a href="#home" class="nav-item">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#projects" class="nav-item">Gallery</a>
+                <a href="#contact" class="nav-item">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <p class="eyebrow">Web Developer</p>
+                <h1>Hi, I build clean and user-friendly websites.</h1>
+                <p class="hero-text">
+                    I am Luis Cervantes, a developer focused on responsive design, practical solutions, and smooth user experiences.
+                </p>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I am a web developer focused on building fast, responsive, and easy-to-use websites that solve real problems.
+                </p>
+                <p>
+                    I enjoy transforming ideas into polished digital experiences, and I care about clean code, clear design, and smooth interactions.
+                </p>
+                <h3 class="tools-title">Tools I Use</h3>
+                <div class="tools-grid">
+                    <article class="tool-card">SKILL 1</article>
+                    <article class="tool-card">SKILL 2</article>
+                    <article class="tool-card">SKILL 3</article>
+                    <article class="tool-card">SKILL 4</article>
+                    <article class="tool-card">SKILL 5</article>
+                    <article class="tool-card">SKILL 6</article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img src="project1.jpg" alt="IMG1" class="project-image">
+                        <h3>Title1</h3>
+                        <p>Paragraph 1</p>
+                    </article>
+                    <article class="project-card">
+                        <img src="project2.jpg" alt="IMG2" class="project-image">
+                        <h3>Title2</h3>
+                        <p>Paragraph 2</p>
+                    </article>
+                    <article class="project-card">
+                        <img src="project3.jpg" alt="IMG3" class="project-image">
+                        <h3>Title3</h3>
+                        <p>Paragraph 3</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>If you would like to work together, feel free to reach out.</p>
+                <p>Email: <a href="mailto:luis@example.com">luis@example.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Luis Cervantes. HCI Proj.</p>
+        </div>
+    </footer>
+</body>
+</html>
